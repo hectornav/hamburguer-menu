@@ -51,7 +51,7 @@ Header responsive
     .listItm li a{
         color: white;
    }
-    /* Style the hamburger menu */
+
     .btn {
         background: rgb(252, 174, 6);
 display: flex;
