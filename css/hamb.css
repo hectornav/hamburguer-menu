@@ -1,0 +1,69 @@
+.navigator{
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+    background-color: bisque;
+    justify-content: center;
+}
+
+.btn{
+    display: none;
+}
+
+.listItm{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.listItm a{
+    text-decoration: none;
+}
+
+/*
+Header responsive
+=================*/
+@media screen and (max-width: 750px) {
+    .navigator{
+        background-color: rgb(60, 150, 223);
+        justify-content: left;
+    }
+    .nav__list .listItm{
+        position: fixed;
+        top: -100%;
+        background-color: rgb(126, 124, 120);
+        width: 60%;
+        padding-left: 0; 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 0;
+        transition: 0.3s;
+    }
+    
+    .listItm li{
+         padding: .5rem;
+    }
+    .listItm li:hover{
+        background-color: rgb(219, 189, 17);
+        cursor: pointer;
+    }
+    .listItm li a{
+        color: white;
+   }
+    /* Style the hamburger menu */
+    .btn {
+        background: rgb(252, 174, 6);
+display: flex;
+        justify-content: start;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .listItm.itms{
+        display: flow-root;
+        left: 0.5rem;
+        top: 1.4rem;
+    }
+
+}
