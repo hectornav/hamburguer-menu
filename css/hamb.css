@@ -61,7 +61,6 @@ display: flex;
     }
 
     .listItm.itms{
-        display: flow-root;
         left: 0.5rem;
         top: 1.4rem;
     }
